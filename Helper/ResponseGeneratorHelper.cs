@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
                 case ResponseCodeEnum.Success:
                 case ResponseCodeEnum.CreateCityOperationSuccess:
                 case ResponseCodeEnum.DeleteCityOperationSuccess:
+                case ResponseCodeEnum.GetAllCityOperationSuccess:
 
 
 

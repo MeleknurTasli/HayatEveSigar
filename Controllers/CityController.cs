@@ -29,10 +29,10 @@ public class CityController : ControllerBase
 
     }
 
-    [HttpDelete("{name}")]
-    public async Task<ActionResult<ServiceResponse<City>>> DeleteCity(string name)
+    [HttpDelete("{Name}")]
+    public async Task<ActionResult<ServiceResponse<City>>> DeleteCity(string Name)
     {
-        return await _ICityService.DeleteCity(name);
+        return await _ICityService.DeleteCity(Name);
 
     }
 
