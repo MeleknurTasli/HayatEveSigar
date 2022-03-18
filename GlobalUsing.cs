@@ -14,3 +14,9 @@ global using FluentValidation.AspNetCore;
 
 global using HayatEveSigar.Helper;
 global using System.Collections.Generic;
+global using HayatEveSigar.Models;
+global using HayatEveSigar.DTO;
+global using HayatEveSigar.Controllers;
+global using HayatEveSigar.Interfaces;
+global using HayatEveSigar.Repositories;
+global using HayatEveSigar.Services;

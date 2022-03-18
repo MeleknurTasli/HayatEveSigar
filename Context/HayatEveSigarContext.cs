@@ -1,7 +1,8 @@
 
-public class SahaBTMeetContext : DbContext
+public class HayatEveSigarContext : DbContext
 {
 
+    public DbSet<User> Users { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         var serverVersion = new MySqlServerVersion(new Version(8, 0, 28));

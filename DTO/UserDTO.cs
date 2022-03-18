@@ -1,10 +1,8 @@
 
-namespace HayatEveSigar.Models
+namespace HayatEveSigar.DTO
 {
-    public class User
+    public class UserDTO
     {
-        public int Id { get; set; }
-        public string Tc { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Email { get; set; }
@@ -12,9 +10,7 @@ namespace HayatEveSigar.Models
         public Gender Gender { get; set; }
         public HealthStatus HealthStatus { get; set; }
 
-        public int AccountId { get; set; }
         public Account? Account { get; set; }
-        public int AddressId { get; set; }
         public Address? Address { get; set; }
     }
 }

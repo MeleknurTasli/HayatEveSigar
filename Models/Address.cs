@@ -9,4 +9,6 @@ public class Address
     public int NeigborhoodId { get; set; }
     public virtual Neigborhood? Neigborhood { get; set; }
 
+    public virtual ICollection<User> Users { get; set; }
+
 }

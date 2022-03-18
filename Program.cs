@@ -9,8 +9,9 @@ builder.Services.AddControllers().AddFluentValidation(opt=>{
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
-
+builder.Services.AddScoped<HayatEveSigarContext>();
+builder.Services.AddScoped<IUserService,UserService>();
+builder.Services.AddScoped<IUserRepository,UserRepository>();
 
 var app = builder.Build();
 
