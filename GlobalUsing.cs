@@ -13,3 +13,4 @@ global using FluentValidation;
 global using FluentValidation.AspNetCore;
 
 global using HayatEveSigar.Helper;
+global using System.Collections.Generic;
