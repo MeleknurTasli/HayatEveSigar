@@ -1,9 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 namespace JobForStudents
 {
-
-
-
     public class ResponseGeneratorHelper : ControllerBase
     {
         public ActionResult ResponseGenerator<T>(ServiceResponse<T> incomingResponse)
@@ -12,7 +9,7 @@ namespace JobForStudents
             {
                 case ResponseCodeEnum.Success:
                 case ResponseCodeEnum.CreateDistrictOperationSuccess:
-                
+
 
 
                     {
