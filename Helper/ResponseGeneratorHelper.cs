@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-namespace JobForStudents
-{
+
     public class ResponseGeneratorHelper : ControllerBase
     {
         public ActionResult ResponseGenerator<T>(ServiceResponse<T> incomingResponse)
@@ -8,7 +7,8 @@ namespace JobForStudents
             switch (incomingResponse.ResponseCode)
             {
                 case ResponseCodeEnum.Success:
-                case ResponseCodeEnum.CreateDistrictOperationSuccess:
+                case ResponseCodeEnum.CreateCityOperationSuccess:
+                case ResponseCodeEnum.DeleteCityOperationSuccess:
 
 
 
@@ -19,7 +19,7 @@ namespace JobForStudents
 
 
 
-                case ResponseCodeEnum.GetAllDistrictsOperationFail:
+                case ResponseCodeEnum.GetAllCityOperationFail:
 
 
                     {
@@ -29,7 +29,9 @@ namespace JobForStudents
 
 
 
-                case ResponseCodeEnum.CreateDistrictOperationFail:
+                case ResponseCodeEnum.CreateCityOperationFail:
+                case ResponseCodeEnum.CityEditOperationFail:
+                case ResponseCodeEnum.DeleteCityOperationFail:
 
                     {
                         return NoContent();
@@ -41,4 +43,3 @@ namespace JobForStudents
             }
         }
     }
-}

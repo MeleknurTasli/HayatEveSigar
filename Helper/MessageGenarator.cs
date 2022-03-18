@@ -7,8 +7,15 @@ namespace HayatEveSigar.Helper
             = new Dictionary<ResponseCodeEnum, string>
         {
         { ResponseCodeEnum.Success, "Ok" },
-        { ResponseCodeEnum.CreateAddressOperationSuccess, "Yeni Adres oluşturuldu" },
-        { ResponseCodeEnum.CreateAddressOperationFail, "Yeni Adres oluşturulamadı" },
+
+
+    { ResponseCodeEnum.CreateCityOperationSuccess, "Yeni il oluşturuldu" },
+    { ResponseCodeEnum.CreateCityOperationFail, "Yeni il oluşturulamadı" },
+    { ResponseCodeEnum.DeleteCityOperationFail, "İl Silininirken hata meydana geldi" },
+    { ResponseCodeEnum.DeleteCityOperationSuccess, "İl Silindi" },
+    { ResponseCodeEnum.GetAllCityOperationFail, "İl Listelenirken hata meydana geldi" },
+    { ResponseCodeEnum.GetAllCityOperationSuccess, "Tüm iller Listelendi" },
+    { ResponseCodeEnum.CityEditOperationFail, "İl Düzenlenirken Hata meydana geldi" },
 
     };
 

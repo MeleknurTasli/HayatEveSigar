@@ -2,10 +2,12 @@
 
     {
         Success,
-        CreateDistrictOperationSuccess,
-        CreateDistrictOperationFail,
-        CreateAddressOperationSuccess,
-        GetAllDistrictsOperationFail,
-        CreateAddressOperationFail,
+        CreateCityOperationSuccess,
+        CreateCityOperationFail,
+        DeleteCityOperationSuccess,
+        DeleteCityOperationFail,
+        GetAllCityOperationSuccess,
+        GetAllCityOperationFail,
+        CityEditOperationFail,
         BadRequest = 400,
     }
