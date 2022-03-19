@@ -20,3 +20,12 @@ global using HayatEveSigar.Controllers;
 global using HayatEveSigar.Interfaces;
 global using HayatEveSigar.Repositories;
 global using HayatEveSigar.Services;
+
+global using System.ComponentModel.DataAnnotations.Schema;
+global using Microsoft.EntityFrameworkCore.Infrastructure;
+global using Microsoft.EntityFrameworkCore.Storage;
+global using System.IO.Pipelines;
+global using Microsoft.AspNetCore.Mvc.Infrastructure;
+global using Microsoft.AspNetCore.Mvc.ModelBinding;
+global using System.Net.Http;
+global using System.Collections.Generic;

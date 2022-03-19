@@ -1,6 +1,9 @@
 
 public class HayatEveSigarContext : DbContext
 {
+    public DbSet<Account>? Accounts { get; set; }
+    public DbSet<PatientDensity>? Densities { get; set; }
+    public DbSet<HesCode>? HesCodes { get; set; }
 
     public DbSet<User> Users { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -12,5 +15,8 @@ public class HayatEveSigarContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
         BaseDatabaseBuilder.TableBuilder(modelBuilder);
+        AccountDatabaseBuilder.TableBuilder(modelBuilder);
+        HesCodeDatabaseBuilder.TableBuilder(modelBuilder);
+        PatientDensityDatabaseBuilder.TableBuilder(modelBuilder);
     }
 }

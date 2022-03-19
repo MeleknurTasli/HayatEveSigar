@@ -1,5 +1,6 @@
 public static class BaseDatabaseBuilder
 {
+
     static void SetDataToDB(ModelBuilder modelBuilder)
     {       
       
