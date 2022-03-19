@@ -17,6 +17,7 @@ public static class UserBuilder
             entity.Property(e=>e.Gender).IsRequired();
             entity.Property(e=>e.HealthStatus);
             entity.HasOne(e=>e.Address).WithMany(r=>r.Users).HasForeignKey(k=>k.AddressId);
+            entity.HasOne(e=>e.Account).WithOne().HasForeignKey("User","AccountId");
         });
         
         SetDataToDB(modelBuilder);

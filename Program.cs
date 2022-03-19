@@ -12,7 +12,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<HayatEveSigarContext>();
 builder.Services.AddScoped<IUserService,UserService>();
 builder.Services.AddScoped<IUserRepository,UserRepository>();
-
+builder.Services.AddScoped<IAccountService,AccountService>();
+builder.Services.AddScoped<IAccountRepository,AccountRepository>();
+builder.Services.AddScoped<IHesCodeService,HesCodeService>();
+builder.Services.AddScoped<IHesCodeRepository,HesCodeRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

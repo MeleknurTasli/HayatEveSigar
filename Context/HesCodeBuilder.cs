@@ -13,6 +13,7 @@ public static class HesCodeDatabaseBuilder
         {
             entity.HasKey(e => e.Id);
             entity.Property(e => e.Code);
+            entity.HasOne(e=>e.Account).WithOne().HasForeignKey("HesCode","AccountId");
         });
 
         SetDataToDB(modelBuilder);

@@ -6,12 +6,8 @@ namespace HayatEveSigar.Models
         public string PhoneNumber { get; set; }
         public string TCKN { get; set; }
         public string Password { get; set; }
-        public int UserID { get; set; }
-        public int HesCodeId { get; set; }
-        public User User { get; set; }
-        public HesCode HesCode { get; set; }
         public bool Visibility { get; set; }
-
+        public bool IsAdmin { get; set; }
 
         public Account()
         {
@@ -24,8 +20,7 @@ namespace HayatEveSigar.Models
             PhoneNumber = createAccountDTO.PhoneNumber;
             TCKN = createAccountDTO.TCKN;
             Password = createAccountDTO.Password;
-            UserID = createAccountDTO.UserID;
-            HesCodeId = createAccountDTO.HesCodeId;
+            IsAdmin = createAccountDTO.IsAdmin;
         }
     }
 }
