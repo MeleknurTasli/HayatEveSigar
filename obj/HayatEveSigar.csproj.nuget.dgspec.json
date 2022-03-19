@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sahabt\\Desktop\\HayatEveSigar\\HayatEveSigar.csproj": {}
+    "c:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sahabt\\Desktop\\HayatEveSigar\\HayatEveSigar.csproj": {
+    "c:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sahabt\\Desktop\\HayatEveSigar\\HayatEveSigar.csproj",
+        "projectUniqueName": "c:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj",
         "projectName": "HayatEveSigar",
-        "projectPath": "C:\\Users\\sahabt\\Desktop\\HayatEveSigar\\HayatEveSigar.csproj",
+        "projectPath": "c:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj",
         "packagesPath": "C:\\Users\\sahabt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sahabt\\Desktop\\HayatEveSigar\\obj\\",
+        "outputPath": "c:\\Users\\sahabt\\HayatEveSigar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sahabt\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -105,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
