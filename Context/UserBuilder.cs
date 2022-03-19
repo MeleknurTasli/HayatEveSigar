@@ -1,4 +1,4 @@
-public static class BaseDatabaseBuilder
+public static class UserBuilder
 {
 
     static void SetDataToDB(ModelBuilder modelBuilder)

@@ -9,39 +9,50 @@ namespace HayatEveSigar.Repositories
             _context = context;
         }
 
-        public Task CreateUserOperation(User user)
+        public async Task CreateUserOperation(User user)
         {
-            throw new NotImplementedException();
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
         }
 
-        public Task DeleteUserOperation(User user)
+        public async Task DeleteUserOperation(User user)
         {
-            throw new NotImplementedException();
+            _context.Users.Remove(user);
+            await _context.SaveChangesAsync();
         }
 
-        public Task<List<User>> GetAllUser()
+        public async Task<List<User>> GetAllUser()
         {
-            throw new NotImplementedException();
+            return await _context.Users.ToListAsync();
         }
 
-        public Task<User> GetUserByEmail(string email)
+        public async Task<User> GetUserByEmail(string email)
         {
-            throw new NotImplementedException();
+            return await _context.Users.SingleOrDefaultAsync(q=>q.Email == email);
         }
 
-        public Task<User> GetUserById(int id)
+        public async Task<User> GetUserById(int id)
         {
-            throw new NotImplementedException();
+            return await _context.Users.SingleOrDefaultAsync(q=>q.Id==id);
         }
 
-        public Task<User> GetUserByTc(string tc)
+        public async Task<User> GetUserByTc(string tc)
         {
-            throw new NotImplementedException();
+            return await _context.Users.SingleOrDefaultAsync(q=>q.Tc == tc);
         }
 
-        public Task<User> UpdateUserOperation(User User)
+        public async Task<User> UpdateUserOperation(int id,User User)
         {
-            throw new NotImplementedException();
+            User inComingUser = await GetUserById(id);
+            inComingUser.Tc = User.Tc;
+            inComingUser.Name = User.Name;
+            inComingUser.Surname = User.Surname;
+            inComingUser.Email = User.Email;
+            inComingUser.Birthday = User.Birthday;
+            inComingUser.Gender = User.Gender;
+            
+            await _context.SaveChangesAsync();
+            return inComingUser;
         }
     }
 }

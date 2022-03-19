@@ -8,7 +8,7 @@ namespace HayatEveSigar.Interfaces
         Task<ActionResult<UserDTO>> GetUserByTc(string tc);
         Task<ActionResult<UserDTO>> GetUserByEmail(string email);
         Task<ActionResult> CreateUserOperation(User user);
-        Task<ActionResult> DeleteUserOperation(User user);
+        Task<ActionResult> DeleteUserOperation(int id);
         Task<ActionResult<UserDTO>> UpdateUserOperation(User User);
     }
 }
