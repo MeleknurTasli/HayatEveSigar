@@ -4,7 +4,9 @@ public class HayatEveSigarContext : DbContext
     public DbSet<Account>? Accounts { get; set; }
     public DbSet<PatientDensity>? Densities { get; set; }
     public DbSet<HesCode>? HesCodes { get; set; }
-
+    public DbSet<Address>? Addresses { get; set; }
+    public DbSet<City>? Cities { get; set; }
+    public DbSet<District>? Districts { get; set; }
     public DbSet<Neigborhood>? Neigborhoods { get; set; }
     public DbSet<User>? Users { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -19,14 +21,10 @@ public class HayatEveSigarContext : DbContext
         AccountDatabaseBuilder.TableBuilder(modelBuilder);
         HesCodeDatabaseBuilder.TableBuilder(modelBuilder);
         PatientDensityDatabaseBuilder.TableBuilder(modelBuilder);
-        modelBuilder.Entity<Neigborhood>(entity =>
-        {
-            entity.HasKey(e => e.Id);
-            entity.Property(e => e.Name);
-            entity.Property(e => e.Population);
-            entity.Property(e => e.DistrictId);
-            entity.Property(e => e.PatientDensityId);
-            entity.HasOne(e=>e.District).WithMany(e=>e.Neigborhood).HasForeignKey(e=>e.DistrictId);
-        });
+        AddressDatabaseBuilder.TableBuilder(modelBuilder);
+        CityDatabaseBuilder.TableBuilder(modelBuilder);
+        DistrictDatabaseBuilder.TableBuilder(modelBuilder);
+        NeigborhoodDatabaseBuilder.TableBuilder(modelBuilder);
+
     }
 }

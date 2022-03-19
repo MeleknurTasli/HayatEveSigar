@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gY4zcJDegTtAUW/82oRtskbASj9apFYQI54tuyPGtoJGnsauTJGY7Aem6KQGZ298hqQI4DoEMKOP+2QI1soFwA==",
+  "dgSpecHash": "OLtwOZBu8yF/wt/vANFS1mKOcHfoaa4+RwrnuehqJrNuFGSOQAHouApzXPZ+x6kLit8ukfltKez3tdYhyREoPw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj",
+  "projectFilePath": "C:\\Users\\sahabt\\Desktop\\HayatEveSigar\\HayatEveSigar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sahabt\\.nuget\\packages\\barcode\\2022.3.0\\barcode.2022.3.0.nupkg.sha512",
     "C:\\Users\\sahabt\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",

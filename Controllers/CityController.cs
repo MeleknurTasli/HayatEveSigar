@@ -1,7 +1,4 @@
 
-
-
-
 [ApiController]
 [Route("[controller]")]
 public class CityController : ControllerBase

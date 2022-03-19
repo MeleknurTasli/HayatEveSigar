@@ -2346,19 +2346,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj",
+      "projectUniqueName": "c:\\Users\\sahabt\\Desktop\\HayatEveSigar\\HayatEveSigar.csproj",
       "projectName": "HayatEveSigar",
-      "projectPath": "c:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj",
+      "projectPath": "c:\\Users\\sahabt\\Desktop\\HayatEveSigar\\HayatEveSigar.csproj",
       "packagesPath": "C:\\Users\\sahabt\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\sahabt\\HayatEveSigar\\obj\\",
+      "outputPath": "c:\\Users\\sahabt\\Desktop\\HayatEveSigar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sahabt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\sahabt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2448,7 +2450,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
