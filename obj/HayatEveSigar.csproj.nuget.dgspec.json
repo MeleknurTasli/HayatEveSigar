@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj": {}
+    "c:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj": {
+    "c:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj",
+        "projectUniqueName": "c:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj",
         "projectName": "HayatEveSigar",
-        "projectPath": "C:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj",
+        "projectPath": "c:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj",
         "packagesPath": "C:\\Users\\sahabt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sahabt\\HayatEveSigar\\obj\\",
+        "outputPath": "c:\\Users\\sahabt\\HayatEveSigar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sahabt\\AppData\\Roaming\\NuGet\\NuGet.Config"
