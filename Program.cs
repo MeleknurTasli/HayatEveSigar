@@ -16,6 +16,8 @@ builder.Services.AddScoped<IAccountService,AccountService>();
 builder.Services.AddScoped<IAccountRepository,AccountRepository>();
 builder.Services.AddScoped<IHesCodeService,HesCodeService>();
 builder.Services.AddScoped<IHesCodeRepository,HesCodeRepository>();
+builder.Services.AddScoped<IPatientDensityService,PatientDensityService>();
+builder.Services.AddScoped<IPatientDensityRepository,PatientDensityRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

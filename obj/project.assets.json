@@ -2346,11 +2346,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj",
+      "projectUniqueName": "C:\\Users\\sahabt\\Desktop\\HayatEveSigar\\HayatEveSigar.csproj",
       "projectName": "HayatEveSigar",
-      "projectPath": "c:\\Users\\sahabt\\HayatEveSigar\\HayatEveSigar.csproj",
+      "projectPath": "C:\\Users\\sahabt\\Desktop\\HayatEveSigar\\HayatEveSigar.csproj",
       "packagesPath": "C:\\Users\\sahabt\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\sahabt\\HayatEveSigar\\obj\\",
+      "outputPath": "C:\\Users\\sahabt\\Desktop\\HayatEveSigar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sahabt\\AppData\\Roaming\\NuGet\\NuGet.Config",

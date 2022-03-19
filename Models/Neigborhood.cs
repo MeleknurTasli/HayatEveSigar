@@ -7,4 +7,7 @@ public class Neigborhood
     public virtual District? District { get; set; }
     public int DistrictId { get; set; }
 
+    public int PatientDensityId { get; set; }
+    public PatientDensity PatientDensity { get; set; }
+
 }
