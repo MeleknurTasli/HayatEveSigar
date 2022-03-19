@@ -52,18 +52,6 @@ namespace HayatEveSigar.Services
             
         }
 
-        public async Task<ActionResult<IEnumerable<AccountDTO>>> GetAllAccounts()
-        {
-            IEnumerable <AccountDTO> accountDTO = new AccountDTO(_accountRepository.GetAllAccounts());
-          if(accountDTO != null)
-          {
-              return accountDTO;
-          }
-           return new List<AccountDTO>
-           {
-               new AccountDTO(null)
-           };
-        }
 
         public async Task<ActionResult<AccountDTO>> UpdateAccount(int Id)
         {
@@ -75,5 +63,10 @@ namespace HayatEveSigar.Services
           return new AccountDTO(null);
             
            }
+
+        Task<ActionResult<IEnumerable<AccountDTO>>> IAccountService.GetAllAccounts()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
