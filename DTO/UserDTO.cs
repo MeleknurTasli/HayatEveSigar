@@ -10,7 +10,7 @@ namespace HayatEveSigar.DTO
         public string Gender { get; set; }
         public string HealthStatus { get; set; }
 
-        public Account? Account { get; set; }
+        public AccountDTO? Account { get; set; }
         public Address? Address { get; set; }
     
         public UserDTO()
@@ -32,7 +32,11 @@ namespace HayatEveSigar.DTO
                 else this.Gender = "Others";
 
                 this.HealthStatus = (user.HealthStatus == global::HealthStatus.Risky) ? "Riskli" : "Risksiz";
-                if(user.Account != null) this.Account = null;
+                if(user.Account != null){
+                    this.Account.PhoneNumber = user.Account.PhoneNumber;
+                    this.Account.Visibility = user.Account.Visibility;
+                    this.Account.IsAdmin = user.Account.IsAdmin;
+                }
                 else this.Account = null;
 
                 if(user.Address != null) this.Address = null;
