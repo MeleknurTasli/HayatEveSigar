@@ -16,5 +16,8 @@ namespace HayatEveSigar.Models
         public Account? Account { get; set; }
         public int AddressId { get; set; }
         public Address? Address { get; set; }
+        public int RiskSurveyId { get; set; }
+        public RiskSurvey RiskSurvey { get; set; }
+        
     }
 }
