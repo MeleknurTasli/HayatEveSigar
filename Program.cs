@@ -27,8 +27,8 @@ builder.Services.AddScoped<IAddressRepository,AddressRepository>();
 builder.Services.AddScoped<IAddressService, AddressService>();
 builder.Services.AddScoped<INeigborhoodRepository,NeigborhoodRepository>();
 builder.Services.AddScoped<INeigborhoodService, NeigborhoodService>();
-
-
+builder.Services.AddScoped<IRiskSurveyService,RiskSurveyService>();
+builder.Services.AddScoped<IRiskSurveyRepository,RiskSurveyRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
