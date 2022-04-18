@@ -11,7 +11,6 @@ C:\Users\sahabt\HayatEveSigar\bin\Debug\net6.0\HayatEveSigar.exe
 C:\Users\sahabt\HayatEveSigar\bin\Debug\net6.0\HayatEveSigar.deps.json
 C:\Users\sahabt\HayatEveSigar\bin\Debug\net6.0\HayatEveSigar.runtimeconfig.json
 C:\Users\sahabt\HayatEveSigar\bin\Debug\net6.0\HayatEveSigar.dll
-C:\Users\sahabt\HayatEveSigar\bin\Debug\net6.0\ref\HayatEveSigar.dll
 C:\Users\sahabt\HayatEveSigar\bin\Debug\net6.0\HayatEveSigar.pdb
 C:\Users\sahabt\HayatEveSigar\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 C:\Users\sahabt\HayatEveSigar\bin\Debug\net6.0\FluentValidation.dll
@@ -151,3 +150,5 @@ C:\Users\sahabt\Desktop\HayatEveSigar\obj\Debug\net6.0\scopedcss\bundle\HayatEve
 C:\Users\sahabt\Desktop\HayatEveSigar\obj\Debug\net6.0\HayatEveSigar.csproj.CopyComplete
 C:\Users\sahabt\Desktop\HayatEveSigar\obj\Debug\net6.0\HayatEveSigar.genruntimeconfig.cache
 C:\Users\sahabt\Desktop\HayatEveSigar\obj\Debug\net6.0\refint\HayatEveSigar.dll
+C:\Users\sahabt\HayatEveSigar\bin\Debug\net6.0\IronBarCode.dll
+C:\Users\sahabt\HayatEveSigar\obj\Debug\net6.0\refint\HayatEveSigar.dll
